@@ -1,0 +1,503 @@
+﻿生成启动时间为 2015/8/7 22:07:21。
+     1>项目“E:\VS2010\WZHViewer\WZHViewer\WZHViewer.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(363,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         D:\VS2013\VC\bin\CL.exe /c /IE:\VS2010\WZHViewer\WZHViewer\TNT /IE:\VS2010\WZHViewer\WZHViewer\eigen /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\res\WZHViewer.pch" /Fo".\res\\" /Fd".\res\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>D:\VS2013\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 D:\VS2013\VC\atlmfc\include\afx.h(33) : 参见“MBCS_Support_Deprecated_In_MFC”的声明
+         D:\VS2013\VC\bin\CL.exe /c /IE:\VS2010\WZHViewer\WZHViewer\TNT /IE:\VS2010\WZHViewer\WZHViewer\eigen /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\res\\" /Fd".\res\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Boundary.cpp calcubase.cpp CutterPath.cpp DoInput.cpp DoInput2.cpp GCamera.cpp GLView.cpp "KD-tree\KDtree.cpp" Laplacian.cpp OBB.cpp octree.cpp SDF.cpp MainFrm.cpp OpenGLDC.cpp STLModel.cpp TXT.cpp WZHViewer.cpp WZHViewerDoc.cpp WZHViewerView.cpp
+         Boundary.cpp
+     1>D:\VS2013\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 D:\VS2013\VC\atlmfc\include\afx.h(33) : 参见“MBCS_Support_Deprecated_In_MFC”的声明
+     1>Boundary.cpp(59): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Boundary.cpp(63): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(67): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(73): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(128): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(158): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(166): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(7): warning C4101: “EN”: 未引用的局部变量
+     1>Boundary.cpp(7): warning C4101: “ST”: 未引用的局部变量
+     1>Boundary.cpp(189): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(236): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(240): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(246): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(248): warning C4805: “==”: 在操作中将类型“BOOL”与类型“bool”混合不安全
+     1>Boundary.cpp(286): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(313): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(318): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(330): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(341): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(358): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(366): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(377): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(387): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(397): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(407): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(427): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(432): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(434): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(442): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(452): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(468): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(479): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(494): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(497): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(500): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(514): warning C4018: “>”: 有符号/无符号不匹配
+     1>Boundary.cpp(520): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(532): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(570): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(575): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(580): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(588): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(675): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(679): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(717): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(737): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(760): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1126): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1139): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(925): warning C4101: “phnew”: 未引用的局部变量
+     1>Boundary.cpp(1013): warning C4101: “phnew”: 未引用的局部变量
+     1>Boundary.cpp(1247): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1279): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1299): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1321): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1326): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1336): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1341): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1390): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1413): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1432): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1450): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1452): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1460): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1477): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1403): warning C4101: “tempH”: 未引用的局部变量
+     1>Boundary.cpp(1527): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1551): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1571): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1588): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1593): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1596): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1603): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1608): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1619): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1624): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1633): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1687): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>Boundary.cpp(1699): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1707): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1721): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1724): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1732): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1754): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1771): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1787): warning C4553: “==”: 运算符不起任何作用；是否是有意使用“=”的?
+     1>Boundary.cpp(1827): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1829): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1845): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1860): warning C4553: “==”: 运算符不起任何作用；是否是有意使用“=”的?
+     1>Boundary.cpp(1880): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1894): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1900): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1912): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1930): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1940): warning C4553: “==”: 运算符不起任何作用；是否是有意使用“=”的?
+     1>Boundary.cpp(1943): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1957): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1961): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1966): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1968): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1972): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1540): warning C4101: “tempH”: 未引用的局部变量
+     1>Boundary.cpp(1987): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(1989): warning C4018: “>”: 有符号/无符号不匹配
+     1>Boundary.cpp(2000): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2025): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2051): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2075): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2095): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2112): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2117): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2120): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2128): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2133): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2144): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2149): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2158): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2212): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>Boundary.cpp(2227): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2231): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2246): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2255): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2064): warning C4101: “tempH”: 未引用的局部变量
+     1>Boundary.cpp(2264): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2280): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2299): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2316): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2321): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2324): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2339): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2344): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2390): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2433): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2439): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2452): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2456): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2451): warning C4101: “myCtrlPos”: 未引用的局部变量
+     1>Boundary.cpp(2471): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2475): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2490): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2494): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2506): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2514): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2519): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2545): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2560): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2580): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2597): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2602): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2604): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2613): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2615): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2620): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2623): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2627): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2636): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2654): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2656): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2725): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2728): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2740): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2742): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2752): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2760): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2771): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2789): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2792): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2801): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2804): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2815): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2818): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2835): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2858): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2861): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2876): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2880): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>Boundary.cpp(2881): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>Boundary.cpp(2892): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2895): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2915): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>Boundary.cpp(2916): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>Boundary.cpp(2923): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2927): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2932): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2957): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(2993): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(3034): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(3043): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(3047): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(3061): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(3070): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(3085): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(3089): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(3095): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(3103): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(3112): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>Boundary.cpp(3114): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>Boundary.cpp(3116): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>Boundary.cpp(3118): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>Boundary.cpp(3121): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>Boundary.cpp(3123): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>Boundary.cpp(3125): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>Boundary.cpp(3127): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>Boundary.cpp(3129): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>Boundary.cpp(3130): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>Boundary.cpp(3134): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>Boundary.cpp(3135): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>Boundary.cpp(3137): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>Boundary.cpp(3138): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>Boundary.cpp(3140): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Boundary.cpp(3143): warning C4244: “参数”: 从“double”转换到“__w64 int”，可能丢失数据
+     1>Boundary.cpp(3148): warning C4244: “参数”: 从“double”转换到“__w64 int”，可能丢失数据
+     1>Boundary.cpp(3149): warning C4244: “参数”: 从“double”转换到“__w64 int”，可能丢失数据
+     1>Boundary.cpp(3157): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(3189): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(3194): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(3201): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(3211): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(3235): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(3269): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(3295): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(3302): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(3314): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(3328): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(3378): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(3381): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(3407): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(3416): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(3419): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(3430): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(3448): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(3457): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(3465): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(3484): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(3507): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(3513): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(3526): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(3532): warning C4018: “<”: 有符号/无符号不匹配
+     1>Boundary.cpp(3536): warning C4018: “<”: 有符号/无符号不匹配
+         calcubase.cpp
+     1>D:\VS2013\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 D:\VS2013\VC\atlmfc\include\afx.h(33) : 参见“MBCS_Support_Deprecated_In_MFC”的声明
+     1>calcubase.cpp(234): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(247): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(261): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(495): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(537): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(577): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(599): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(609): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(626): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(635): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(649): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(659): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(681): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(691): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(893): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(902): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(933): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(938): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(942): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(950): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(1237): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(1244): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(1254): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(1264): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(1424): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(1428): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(1543): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(1561): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(1575): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(1579): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(1582): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(1615): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(1632): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(1649): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(1668): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>calcubase.cpp(1673): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>calcubase.cpp(1676): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(1681): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(1720): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(1734): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(1737): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(1746): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(1758): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(1765): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(1776): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(1855): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(1859): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(1862): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(1878): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(1906): warning C4018: “<”: 有符号/无符号不匹配
+     1>calcubase.cpp(1934): warning C4018: “<”: 有符号/无符号不匹配
+         CutterPath.cpp
+     1>D:\VS2013\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 D:\VS2013\VC\atlmfc\include\afx.h(33) : 参见“MBCS_Support_Deprecated_In_MFC”的声明
+     1>CutterPath.cpp(25): warning C4018: “<”: 有符号/无符号不匹配
+     1>CutterPath.cpp(69): warning C4018: “<”: 有符号/无符号不匹配
+     1>CutterPath.cpp(79): warning C4018: “<”: 有符号/无符号不匹配
+     1>CutterPath.cpp(95): warning C4018: “<”: 有符号/无符号不匹配
+     1>CutterPath.cpp(107): warning C4018: “<”: 有符号/无符号不匹配
+     1>CutterPath.cpp(189): warning C4018: “<”: 有符号/无符号不匹配
+     1>CutterPath.cpp(226): warning C4018: “<”: 有符号/无符号不匹配
+     1>CutterPath.cpp(304): warning C4018: “<”: 有符号/无符号不匹配
+     1>CutterPath.cpp(332): warning C4018: “<”: 有符号/无符号不匹配
+     1>CutterPath.cpp(360): warning C4018: “<”: 有符号/无符号不匹配
+     1>CutterPath.cpp(478): warning C4018: “<”: 有符号/无符号不匹配
+     1>CutterPath.cpp(474): warning C4101: “firstPH”: 未引用的局部变量
+         DoInput.cpp
+     1>D:\VS2013\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 D:\VS2013\VC\atlmfc\include\afx.h(33) : 参见“MBCS_Support_Deprecated_In_MFC”的声明
+     1>e:\vs2010\wzhviewer\wzhviewer\resource.h(34): warning C4005: “IDCANCEL”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(10565) : 参见“IDCANCEL”的前一个定义
+         DoInput2.cpp
+     1>D:\VS2013\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 D:\VS2013\VC\atlmfc\include\afx.h(33) : 参见“MBCS_Support_Deprecated_In_MFC”的声明
+     1>e:\vs2010\wzhviewer\wzhviewer\resource.h(34): warning C4005: “IDCANCEL”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(10565) : 参见“IDCANCEL”的前一个定义
+         GCamera.cpp
+     1>D:\VS2013\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 D:\VS2013\VC\atlmfc\include\afx.h(33) : 参见“MBCS_Support_Deprecated_In_MFC”的声明
+         GLView.cpp
+     1>D:\VS2013\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 D:\VS2013\VC\atlmfc\include\afx.h(33) : 参见“MBCS_Support_Deprecated_In_MFC”的声明
+         KDtree.cpp
+         Laplacian.cpp
+     1>D:\VS2013\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 D:\VS2013\VC\atlmfc\include\afx.h(33) : 参见“MBCS_Support_Deprecated_In_MFC”的声明
+     1>e:\vs2010\wzhviewer\wzhviewer\STLModel.h(4): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>e:\vs2010\wzhviewer\wzhviewer\STLModel.h(5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>Laplacian.cpp(7): warning C4018: “<”: 有符号/无符号不匹配
+     1>Laplacian.cpp(15): warning C4018: “<”: 有符号/无符号不匹配
+     1>Laplacian.cpp(43): warning C4018: “<”: 有符号/无符号不匹配
+     1>Laplacian.cpp(97): warning C4018: “<”: 有符号/无符号不匹配
+     1>Laplacian.cpp(117): warning C4018: “<”: 有符号/无符号不匹配
+     1>Laplacian.cpp(129): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>Laplacian.cpp(140): warning C4018: “<”: 有符号/无符号不匹配
+     1>Laplacian.cpp(146): warning C4018: “<”: 有符号/无符号不匹配
+         OBB.cpp
+     1>D:\VS2013\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 D:\VS2013\VC\atlmfc\include\afx.h(33) : 参见“MBCS_Support_Deprecated_In_MFC”的声明
+     1>OBB.cpp(13): warning C4018: “<”: 有符号/无符号不匹配
+     1>OBB.cpp(38): warning C4018: “<”: 有符号/无符号不匹配
+     1>OBB.cpp(118): warning C4018: “<”: 有符号/无符号不匹配
+     1>OBB.cpp(121): warning C4018: “<”: 有符号/无符号不匹配
+     1>OBB.cpp(138): warning C4018: “<”: 有符号/无符号不匹配
+         octree.cpp
+     1>D:\VS2013\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 D:\VS2013\VC\atlmfc\include\afx.h(33) : 参见“MBCS_Support_Deprecated_In_MFC”的声明
+     1>octree.cpp(893): warning C4018: “<”: 有符号/无符号不匹配
+         SDF.cpp
+     1>D:\VS2013\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 D:\VS2013\VC\atlmfc\include\afx.h(33) : 参见“MBCS_Support_Deprecated_In_MFC”的声明
+     1>SDF.cpp(11): warning C4018: “<”: 有符号/无符号不匹配
+     1>SDF.cpp(25): warning C4018: “<”: 有符号/无符号不匹配
+     1>SDF.cpp(48): warning C4018: “<”: 有符号/无符号不匹配
+     1>SDF.cpp(77): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>SDF.cpp(85): warning C4018: “<”: 有符号/无符号不匹配
+     1>SDF.cpp(114): warning C4018: “<”: 有符号/无符号不匹配
+     1>SDF.cpp(137): warning C4018: “<”: 有符号/无符号不匹配
+     1>SDF.cpp(169): warning C4018: “<”: 有符号/无符号不匹配
+     1>SDF.cpp(194): warning C4018: “<”: 有符号/无符号不匹配
+     1>SDF.cpp(223): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>SDF.cpp(231): warning C4018: “<”: 有符号/无符号不匹配
+     1>SDF.cpp(330): warning C4018: “<”: 有符号/无符号不匹配
+         MainFrm.cpp
+     1>D:\VS2013\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 D:\VS2013\VC\atlmfc\include\afx.h(33) : 参见“MBCS_Support_Deprecated_In_MFC”的声明
+     1>e:\vs2010\wzhviewer\wzhviewer\resource.h(34): warning C4005: “IDCANCEL”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(10565) : 参见“IDCANCEL”的前一个定义
+         OpenGLDC.cpp
+     1>D:\VS2013\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 D:\VS2013\VC\atlmfc\include\afx.h(33) : 参见“MBCS_Support_Deprecated_In_MFC”的声明
+     1>OpenGLDC.cpp(132): warning C4244: “=”: 从“double”转换到“GLclampf”，可能丢失数据
+     1>OpenGLDC.cpp(133): warning C4244: “=”: 从“double”转换到“GLclampf”，可能丢失数据
+     1>OpenGLDC.cpp(134): warning C4244: “=”: 从“double”转换到“GLclampf”，可能丢失数据
+     1>OpenGLDC.cpp(271): warning C4244: “参数”: 从“const double”转换到“GLfloat”，可能丢失数据
+     1>OpenGLDC.cpp(278): warning C4244: “参数”: 从“const double”转换到“GLfloat”，可能丢失数据
+     1>OpenGLDC.cpp(279): warning C4244: “参数”: 从“const double”转换到“GLfloat”，可能丢失数据
+     1>OpenGLDC.cpp(285): warning C4244: “参数”: 从“const double”转换到“GLfloat”，可能丢失数据
+     1>OpenGLDC.cpp(286): warning C4244: “参数”: 从“const double”转换到“GLfloat”，可能丢失数据
+     1>OpenGLDC.cpp(339): warning C4101: “viewport”: 未引用的局部变量
+         STLModel.cpp
+     1>D:\VS2013\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 D:\VS2013\VC\atlmfc\include\afx.h(33) : 参见“MBCS_Support_Deprecated_In_MFC”的声明
+     1>e:\vs2010\wzhviewer\wzhviewer\STLModel.h(4): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>e:\vs2010\wzhviewer\wzhviewer\STLModel.h(5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>STLModel.cpp(156): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2013\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>STLModel.cpp(175): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2013\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>STLModel.cpp(184): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2013\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>STLModel.cpp(188): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2013\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>STLModel.cpp(194): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2013\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>STLModel.cpp(319): warning C4018: “<”: 有符号/无符号不匹配
+     1>STLModel.cpp(445): warning C4018: “<”: 有符号/无符号不匹配
+     1>STLModel.cpp(458): warning C4018: “<”: 有符号/无符号不匹配
+     1>STLModel.cpp(488): warning C4018: “<”: 有符号/无符号不匹配
+     1>STLModel.cpp(493): warning C4018: “<”: 有符号/无符号不匹配
+     1>STLModel.cpp(505): warning C4018: “<”: 有符号/无符号不匹配
+     1>STLModel.cpp(510): warning C4018: “<”: 有符号/无符号不匹配
+     1>STLModel.cpp(521): warning C4018: “<”: 有符号/无符号不匹配
+     1>STLModel.cpp(565): warning C4018: “<”: 有符号/无符号不匹配
+     1>STLModel.cpp(567): warning C4018: “<”: 有符号/无符号不匹配
+     1>STLModel.cpp(570): warning C4018: “<”: 有符号/无符号不匹配
+         TXT.cpp
+     1>D:\VS2013\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 D:\VS2013\VC\atlmfc\include\afx.h(33) : 参见“MBCS_Support_Deprecated_In_MFC”的声明
+     1>e:\vs2010\wzhviewer\wzhviewer\STLModel.h(4): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>e:\vs2010\wzhviewer\wzhviewer\STLModel.h(5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>TXT.cpp(23): warning C4018: “<”: 有符号/无符号不匹配
+     1>TXT.cpp(34): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>TXT.cpp(55): warning C4129: “w”: 不可识别的字符转义序列
+     1>TXT.cpp(55): warning C4129: “m”: 不可识别的字符转义序列
+     1>TXT.cpp(103): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2013\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>TXT.cpp(106): warning C4018: “<”: 有符号/无符号不匹配
+         WZHViewer.cpp
+     1>D:\VS2013\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 D:\VS2013\VC\atlmfc\include\afx.h(33) : 参见“MBCS_Support_Deprecated_In_MFC”的声明
+     1>e:\vs2010\wzhviewer\wzhviewer\resource.h(34): warning C4005: “IDCANCEL”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(10565) : 参见“IDCANCEL”的前一个定义
+     1>e:\vs2010\wzhviewer\wzhviewer\STLModel.h(4): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>e:\vs2010\wzhviewer\wzhviewer\STLModel.h(5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>e:\vs2010\wzhviewer\wzhviewer\WZHViewerView.h(12): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+         WZHViewerDoc.cpp
+     1>D:\VS2013\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 D:\VS2013\VC\atlmfc\include\afx.h(33) : 参见“MBCS_Support_Deprecated_In_MFC”的声明
+     1>e:\vs2010\wzhviewer\wzhviewer\resource.h(34): warning C4005: “IDCANCEL”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(10565) : 参见“IDCANCEL”的前一个定义
+     1>e:\vs2010\wzhviewer\wzhviewer\STLModel.h(4): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>e:\vs2010\wzhviewer\wzhviewer\STLModel.h(5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+         WZHViewerView.cpp
+     1>D:\VS2013\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 D:\VS2013\VC\atlmfc\include\afx.h(33) : 参见“MBCS_Support_Deprecated_In_MFC”的声明
+     1>e:\vs2010\wzhviewer\wzhviewer\resource.h(34): warning C4005: “IDCANCEL”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(10565) : 参见“IDCANCEL”的前一个定义
+     1>e:\vs2010\wzhviewer\wzhviewer\STLModel.h(4): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>e:\vs2010\wzhviewer\wzhviewer\STLModel.h(5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>e:\vs2010\wzhviewer\wzhviewer\WZHViewerView.h(12): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>WZHViewerView.cpp(431): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>WZHViewerView.cpp(433): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>WZHViewerView.cpp(505): warning C4018: “<”: 有符号/无符号不匹配
+     1>WZHViewerView.cpp(507): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>WZHViewerView.cpp(588): warning C4018: “<”: 有符号/无符号不匹配
+     1>WZHViewerView.cpp(593): warning C4018: “<”: 有符号/无符号不匹配
+     1>WZHViewerView.cpp(638): warning C4018: “<”: 有符号/无符号不匹配
+     1>WZHViewerView.cpp(649): warning C4018: “<”: 有符号/无符号不匹配
+     1>WZHViewerView.cpp(658): warning C4018: “<”: 有符号/无符号不匹配
+     1>WZHViewerView.cpp(661): warning C4018: “<”: 有符号/无符号不匹配
+     1>WZHViewerView.cpp(839): warning C4018: “<”: 有符号/无符号不匹配
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /l"0x0804" /I.\res\ /nologo /fo".\res\WZHViewer.res" WZHViewer.rc 
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.rh(1365): warning RC4005: 'IDCANCEL' : redefinition
+         
+       Link:
+         D:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release\WZHViewer.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\VS2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:".\Release\WZHViewer.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\WZHViewer.lib" /MACHINE:X86 /SAFESEH .\res\WZHViewer.res
+         .\res\Boundary.obj
+         .\res\calcubase.obj
+         .\res\CutterPath.obj
+         .\res\DoInput.obj
+         .\res\DoInput2.obj
+         .\res\GCamera.obj
+         .\res\GLView.obj
+         .\res\KDtree.obj
+         .\res\Laplacian.obj
+         .\res\OBB.obj
+         .\res\octree.obj
+         .\res\SDF.obj
+         .\res\MainFrm.obj
+         .\res\OpenGLDC.obj
+         .\res\stdafx.obj
+         .\res\STLModel.obj
+         .\res\TXT.obj
+         .\res\WZHViewer.obj
+         .\res\WZHViewerDoc.obj
+         .\res\WZHViewerView.obj
+         正在生成代码
+     1>e:\vs2010\wzhviewer\wzhviewer\boundary.cpp(705): warning C4715: “Cboundary::Skeletonizing_delet”: 不是所有的控件路径都返回值
+         已完成代码的生成
+         WZHViewer.vcxproj -> E:\VS2010\WZHViewer\WZHViewer\.\Release\WZHViewer.exe
+     1>已完成生成项目“E:\VS2010\WZHViewer\WZHViewer\WZHViewer.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:01:22.22

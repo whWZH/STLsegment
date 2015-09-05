@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="KDtree">
+      <UniqueIdentifier>{8729b801-41eb-46a2-af4b-2da6731b600d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="数据结构">
+      <UniqueIdentifier>{aa39f269-7d24-4ced-b3c5-f0f42ebdb46a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL">
+      <UniqueIdentifier>{8091acef-303e-4509-8fe9-d3294d800dc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="文件写出">
+      <UniqueIdentifier>{30e2dfce-3069-449a-83dd-624388dfb27e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="基本计算类">
+      <UniqueIdentifier>{edbf1583-dbb4-42d6-a5c9-1e4a793dba4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OCtree">
+      <UniqueIdentifier>{c54c8493-e4bd-4521-a7fe-591b67d7fd1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="显式抽取">
+      <UniqueIdentifier>{02284540-5ab0-4983-b0d4-60368d90d35f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDF综合特征">
+      <UniqueIdentifier>{c0a7a68e-6d37-467c-81c3-e4837d062625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="拉普拉斯光顺">
+      <UniqueIdentifier>{762d0fbe-c00b-4810-8582-9527b2de1739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="五轴轨迹">
+      <UniqueIdentifier>{c1e53460-e081-46be-92b5-37e32278383c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBB">
+      <UniqueIdentifier>{39dd289d-0d29-4fb2-8ed3-005e7659794c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="UserImages.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WZHViewer.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WZHViewerDoc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WZHViewer.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WZHViewer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WZHViewerDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WZHViewerView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="KD-tree\mempool.h">
+      <Filter>KDtree</Filter>
+    </ClInclude>
+    <ClInclude Include="KD-tree\Vec.h">
+      <Filter>KDtree</Filter>
+    </ClInclude>
+    <ClInclude Include="TXT.h">
+      <Filter>文件写出</Filter>
+    </ClInclude>
+    <ClInclude Include="GeomBase.h">
+      <Filter>数据结构</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>数据结构</Filter>
+    </ClInclude>
+    <ClInclude Include="polygon.h">
+      <Filter>数据结构</Filter>
+    </ClInclude>
+    <ClInclude Include="solid.h">
+      <Filter>数据结构</Filter>
+    </ClInclude>
+    <ClInclude Include="solidMesh.h">
+      <Filter>数据结构</Filter>
+    </ClInclude>
+    <ClInclude Include="solidPolygon.h">
+      <Filter>数据结构</Filter>
+    </ClInclude>
+    <ClInclude Include="GCamera.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLDC.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="GLView.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="STLModel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="calcubase.h">
+      <Filter>基本计算类</Filter>
+    </ClInclude>
+    <ClInclude Include="KD-tree\KDtree.h">
+      <Filter>KDtree</Filter>
+    </ClInclude>
+    <ClInclude Include="Boundary.h">
+      <Filter>显式抽取</Filter>
+    </ClInclude>
+    <ClInclude Include="SDF.h">
+      <Filter>SDF综合特征</Filter>
+    </ClInclude>
+    <ClInclude Include="octree.h">
+      <Filter>OCtree</Filter>
+    </ClInclude>
+    <ClInclude Include="Laplacian.h">
+      <Filter>拉普拉斯光顺</Filter>
+    </ClInclude>
+    <ClInclude Include="CutterPath.h">
+      <Filter>五轴轨迹</Filter>
+    </ClInclude>
+    <ClInclude Include="DoInput.h">
+      <Filter>文件写出</Filter>
+    </ClInclude>
+    <ClInclude Include="DoInput2.h">
+      <Filter>文件写出</Filter>
+    </ClInclude>
+    <ClInclude Include="OBB.h">
+      <Filter>OBB</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WZHViewer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WZHViewerDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WZHViewerView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="STLModel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TXT.cpp">
+      <Filter>文件写出</Filter>
+    </ClCompile>
+    <ClCompile Include="GLView.cpp">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="GCamera.cpp">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLDC.cpp">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="calcubase.cpp">
+      <Filter>基本计算类</Filter>
+    </ClCompile>
+    <ClCompile Include="KD-tree\KDtree.cpp">
+      <Filter>KDtree</Filter>
+    </ClCompile>
+    <ClCompile Include="Boundary.cpp">
+      <Filter>显式抽取</Filter>
+    </ClCompile>
+    <ClCompile Include="SDF.cpp">
+      <Filter>SDF综合特征</Filter>
+    </ClCompile>
+    <ClCompile Include="octree.cpp">
+      <Filter>OCtree</Filter>
+    </ClCompile>
+    <ClCompile Include="Laplacian.cpp">
+      <Filter>拉普拉斯光顺</Filter>
+    </ClCompile>
+    <ClCompile Include="CutterPath.cpp">
+      <Filter>五轴轨迹</Filter>
+    </ClCompile>
+    <ClCompile Include="DoInput.cpp">
+      <Filter>文件写出</Filter>
+    </ClCompile>
+    <ClCompile Include="DoInput2.cpp">
+      <Filter>文件写出</Filter>
+    </ClCompile>
+    <ClCompile Include="OBB.cpp">
+      <Filter>OBB</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WZHViewer.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
